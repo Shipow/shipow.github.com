@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://Shipow.github.io/blog/2013/07/24/les-10-heuristiques-du-design/</loc>
+        <lastmod>2013-07-24T00:42:08+02:00</lastmod>
+    </url>
+    <url>
         <loc>http://Shipow.github.io/blog/archives/</loc>
-        <lastmod>2013-07-24T00:08:51+02:00</lastmod>
+        <lastmod>2013-07-24T00:42:08+02:00</lastmod>
     </url>
     <url>
         <loc>http://Shipow.github.io/</loc>
-        <lastmod>2013-07-24T00:08:51+02:00</lastmod>
+        <lastmod>2013-07-24T00:42:08+02:00</lastmod>
     </url>
     <url>
         <loc>http://Shipow.github.io/robots.txt</loc>

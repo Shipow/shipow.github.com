@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[blog Kgranger.fr]]></title>
-  <link href="http://Shipow.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: UX | blog Kgranger.fr]]></title>
+  <link href="http://Shipow.github.io/blog/categories/ux/atom.xml" rel="self"/>
   <link href="http://Shipow.github.io/"/>
   <updated>2013-07-24T00:44:58+02:00</updated>
   <id>http://Shipow.github.io/</id>
