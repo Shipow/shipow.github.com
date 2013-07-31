@@ -4,7 +4,7 @@
   <title><![CDATA[Category: UX | blog Kgranger.fr]]></title>
   <link href="http://Shipow.github.io/blog/categories/ux/atom.xml" rel="self"/>
   <link href="http://Shipow.github.io/"/>
-  <updated>2013-07-24T01:30:18+02:00</updated>
+  <updated>2013-08-01T00:05:24+02:00</updated>
   <id>http://Shipow.github.io/</id>
   <author>
     <name><![CDATA[Kevin Granger aka Shipow]]></name>
@@ -14,53 +14,138 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Les 10 heuristiques du design d'interface]]></title>
-    <link href="http://Shipow.github.io/blog/2013/07/24/les-10-heuristiques-du-design/"/>
+    <title type="html"><![CDATA[Heuristiques du design d'interface d'après Jacob Nielsen]]></title>
+    <link href="http://Shipow.github.io/blog/2013/07/24/heuristiques-du-design-interface/"/>
     <updated>2013-07-24T00:40:00+02:00</updated>
-    <id>http://Shipow.github.io/blog/2013/07/24/les-10-heuristiques-du-design</id>
-    <content type="html"><![CDATA[<p><blockquote><p>En sociologie, l'heuristique est la « discipline qui se propose de dégager les règles de la recherche scientifique ». Le terme heuristique désigne d'une manière courante, une méthode de résolution d'un problème qui ne passe pas par l'analyse détaillée du problème mais par son appartenance ou adhérence à une classe de problèmes donnés déjà identifiés.</p><footer><strong>Wikipédia</strong></footer></blockquote></p>
+    <id>http://Shipow.github.io/blog/2013/07/24/heuristiques-du-design-interface</id>
+    <content type="html"><![CDATA[<p>%blockquote</p>
 
-<h2>Visibilité de l'état du système</h2>
+<pre><code>%p En sociologie, l'heuristique est la discipline qui se propose de dégager les règles de la recherche scientifique. Le terme heuristique désigne d'une manière courante, une méthode de résolution d'un problème qui ne passe pas par l'analyse détaillée du problème mais par son appartenance ou adhérence à une classe de problèmes donnés déjà identifiés.
+%small Wikipédia
+</code></pre>
 
-<p><img class="<a" src="href="http://placekitten.com/320/250">http://placekitten.com/320/250</a>" title="Place Kitten #2" >
-Le système doit toujours tenir les utilisateurs informés sur ce qui se passe, grâce à des retours appropriés dans un délai raisonnable.</p>
+<p>.row</p>
 
-<h2>Correspondance avec le monde réel</h2>
+<pre><code>.span3
 
-<p><img class="<a" src="href="http://placekitten.com/320/250">http://placekitten.com/320/250</a>" title="Place Kitten #2" >
-Le système doit parler la langue de l'utilisateur, des mots, des phrases et des concepts familiers à l'utilisateur, plutôt que des termes orientées système. Une interface qui suit les conventions du le monde réel présente les informations dans un ordre naturel et logique.</p>
+.span9
+    %h2 Visibilité de l'état du système
+    %blockquote Les retours sont-ils visibles ?
+    %p Le système doit en permanence tenir les utilisateurs informés de ce qui se passe, grâce à des retours appropriés dans un délai raisonnable.
+    %span
+        %i.icon-arrow-right
+        Prévoir du feedback à l'utilisateur
+</code></pre>
 
-<h2>Contrôle de l'utilisateur et liberté</h2>
+<p>.row</p>
 
-<p>Les utilisateurs choisissent souvent les fonctions du système par erreur et auront besoin d'une &ldquo;sortie de secours&rdquo; clairement indiquée pour quitter l'état non désiré sans passer par des étapes supplémentaires. Support du undo/redo.</p>
+<pre><code>.span3
 
-<h2>Cohérence et normes</h2>
+.span9
+    %h2 Correspondance avec le monde réel
 
-<p>Les utilisateurs ne devraient pas avoir à se demander si des mots différents, des situations ou des actions signifient la même chose. Suivez les conventions.</p>
+    %blockquote Le langage utilisé est-il celui de l'utilisateur ?
+    %p Le système doit parler la langue de l'utilisateur, des mots, des phrases et des concepts familiers à l'utilisateur, plutôt que des termes orientées système. Une interface qui suit les conventions du le monde réel présente les informations dans un ordre naturel et logique.
+    %span
+        %i.icon-arrow-right
+        Parler le langage de l'utilisateur
+</code></pre>
 
-<h2>Prévention d'erreur et tolérance</h2>
+<p>.row</p>
 
-<p>Une conception soignée empêche un problème de se produire, et cela vaut toujours mieux qu'un très bon message d'erreur. Vérifier pour l'utilisateur ses informations et l'aider à compléter les conditions avant de le laisser valider l'action.</p>
+<pre><code>.span3
 
-<h2>Reconnaitre plutôt que se rappeler</h2>
+.span9
+    %h2 Contrôle de l'utilisateur et liberté
+    %blockquote Les sorties sont-elles explicites ?
+    %p Les utilisateurs choisissent souvent les fonctions du système par erreur et auront besoin d'une "sortie de secours" clairement indiquée pour quitter l'état non désiré sans passer par des étapes supplémentaires.
+    %span
+        %i.icon-arrow-right
+        Prévoir des sorties du système clairement indiquées
+</code></pre>
 
-<p>Minimiser la charge de la mémoire de l'utilisateur en remontant au premier plan les options et actions. L'utilisateur ne devrait pas avoir à se souvenir des informations d'une partie du dialogue à l'autre. Les instructions pour l'utilisation du système doivent être visibles ou facilement accessibles le cas échéant.</p>
+<p>.row</p>
 
-<h2>La flexibilité et l'efficacité de l'utilisation</h2>
+<pre><code>.span3
 
-<p>Des raccourcis &ndash; invisibles pour l'utilisateur novice &ndash; peuvent souvent améliorer l'expérience pour les utilisateurs d'experts. Le système doit pouvoir répondre à la fois aux utilisateurs novices et expérimentés. Autoriser les utilisateurs à créer des raccourcis pour leurs actions fréquentes.</p>
+.span9
+    %h2 Cohérence et normes, Homogeneité et standards
+    %blockquote La présentation et le dialogue sont-ils cohérents ?
+    %p Les utilisateurs ne devraient pas avoir à se demander si des mots différents, des situations ou des actions signifient la même chose. Suivez les conventions.
+    %span
+        %i.icon-arrow-right
+        S'assurer d'être cohérent
+</code></pre>
 
-<h2>Design esthétique et minimaliste</h2>
+<p>.row</p>
 
-<p>Les dialogues doivent contenir uniquement des informations pertinentes ou nécessaires. Chaque unité d'information supplémentaire dans un dialogue diminue la visibilité en de l'information recherchée.</p>
+<pre><code>.span3
 
-<h2>Aider à reconnaître et corriger les erreurs</h2>
+.span9
+    %h2 Prévention d'erreur et tolérance
+    %blockquote Les erreurs sont-elles évitées ?
+    %p Une conception soignée empêche un problème de se produire, et cela vaut toujours mieux qu'un très bon message d'erreur. Vérifier pour l'utilisateur ses informations et l'aider à compléter les conditions avant de le laisser valider l'action.
+    %span
+        %i.icon-arrow-right
+        Détecter et prévenir les erreurs
+</code></pre>
 
-<p>Les messages d'erreur doivent être exprimés en langage clair (pas de code), indiquer précisément le problème et proposer une solution constructive.</p>
+<p>.row</p>
 
-<h2>Aide et documentation</h2>
+<pre><code>.span3
 
-<p>Même si il est préférable que le système puisse être utilisé sans documentation, il peut être nécessaire de fournir de l'aide et de la documentation. Toute information doit être facile à trouver, centrée sur la tâche de l'utilisateur avec la liste des mesures concrètes à mettre en œuvre, sans être trop grand.</p>
+.span9
+    %h2 Reconnaitre plutôt que se rappeler
+    %blockquote Le travail de mémorisation est-il minimal ?
+    %p Minimiser la charge de la mémoire de l'utilisateur en remontant au premier plan les options et actions. L'utilisateur ne devrait pas avoir à se souvenir des informations d'une partie du dialogue à l'autre. Les instructions pour l'utilisation du système doivent être visibles ou facilement accessibles le cas échéant.
+    %span
+        %i.icon-arrow-right
+        Minimiser la charge mentale de l'utilisateur
+</code></pre>
+
+<p>.row</p>
+
+<pre><code>.span3
+
+.span9
+    %h2 La flexibilité et l'efficacité de l'utilisation
+    %blockquote Existe-t-il des raccourcis ?
+    %p Des raccourcis - invisibles pour l'utilisateur novice - peuvent souvent améliorer l'expérience pour les utilisateurs d'experts. Le système doit pouvoir répondre à la fois aux utilisateurs novices et expérimentés. 
+    %span
+        %i.icon-arrow-right
+        Autoriser les utilisateurs à créer des raccourcis pour leurs actions fréquentes.
+</code></pre>
+
+<p>.row</p>
+
+<pre><code>.span3
+
+.span9
+    %h2 Design esthétique et minimaliste
+    %blockquote Le dialogue est-il simple ?
+    %p Les dialogues doivent contenir uniquement des informations pertinentes ou nécessaires. Chaque unité d'information supplémentaire dans un dialogue diminue la visibilité en de l'information recherchée.
+</code></pre>
+
+<p>.row</p>
+
+<pre><code>.span3
+
+.span9
+    %h2 Aider à reconnaître et corriger les erreurs
+    %blockquote Les messages d'erreur sont-ils explicites ?
+    %p Les messages d'erreur doivent être exprimés en langage clair (pas de code), indiquer précisément le problème et proposer une solution constructive.
+</code></pre>
+
+<p>.row</p>
+
+<pre><code>.span3
+
+.span9
+    %h2 Aide et documentation
+    %blockquote Le logiciel est-il documenté ?
+    %blockquote Existe-t-il une aide ?
+    %p Même si il est préférable que le système puisse être utilisé sans documentation, il peut être nécessaire de fournir de l'aide et de la documentation. Toute information doit être facile à trouver, centrée sur la tâche de l'utilisateur avec la liste des mesures concrètes à mettre en œuvre, sans être trop grand.
+</code></pre>
 
 <p>Source : <a href="http://en.wikipedia.org/wiki/Jakob_Nielsen_">http://en.wikipedia.org/wiki/Jakob_Nielsen_</a>(usability_consultant)</p>
 
